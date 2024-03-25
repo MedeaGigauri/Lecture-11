@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+body {
+  font-family: "Heebo", sans-serif;
+}
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+}
+.d-flex {
+  display: flex;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(94, 94, 220);
+}
+.list {
+  display: flex;
+  column-gap: 33px;
+  opacity: 0.8;
+  color: rgb(94, 94, 220);
+}
+.main-content {
+  justify-content: space-between;
+  align-items: center;
+}
+main {
+  width: 100%;
+  height: 500px;
+}
+.text h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #21243d;
+  width: 445px;
+}
+.text p {
+  max-width: 445px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #21243d;
+  margin: 40px 0px 38px 0px;
+}
+.download-btn {
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  background-color: #ff6464;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.menu-icon {
+  cursor: pointer;
+  display: none;
+}
+.blogs {
+  width: 100%;
+  height: 396px;
+  background-color: #edf7fa;
+  padding: 25px 0px;
+}
+.section-header {
+  justify-content: space-between;
+}
+.recent-posts {
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+}
+.view-all {
+  font-size: 16px;
+  color: #00a8cc;
+}
+@media (max-width: 500px) {
+  .header-nav {
+    display: none;
+  }
+  .container {
+    padding: 0px 18px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .main-content {
+    flex-direction: column-reverse;
+  }
+  .text {
+    text-align: center;
+  }
+  .text h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
